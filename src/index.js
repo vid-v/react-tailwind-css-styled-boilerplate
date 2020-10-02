@@ -4,26 +4,6 @@ import App from './App';
 import "./assets/styles.css"
 import * as serviceWorker from './serviceWorker';
 
-// import { getWhitelist, TailwindReactExtractor } from 'tailwind-react-ui'
-
-// new PurgecssPlugin({
-//   whitelist: getWhitelist({
-//     // project's tailwind-react-ui theme
-//   }, [
-//     // project specific selector whitelist
-//   ]),
-//   paths:  glob.sync([
-//     // glob of jsx directory
-//   ]),
-//   extractors: [
-//     {
-//       extractor: TailwindReactExtractor,
-//       extensions: ['js', 'jsx'],
-//     },
-//   ],
-// })
-
-
 ReactDOM.render(
   <React.StrictMode>
     <App />

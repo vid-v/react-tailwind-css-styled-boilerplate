@@ -1,9 +1,12 @@
 import React from 'react'
-import Panel from './components/panel';
+import AppContainer from './components/AppContainer'
+import Header from './components/Header';
 
 function App() {
   return (
-    <Panel></Panel>
+    <AppContainer>
+      <Header></Header>
+    </AppContainer>
   )
 }
 
