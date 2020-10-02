@@ -1,7 +1,12 @@
+const plugins = require('tailwind-react-ui/plugins')
+
 module.exports = {
   theme: {
     extend: {},
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('tailwindcss/plugins/container')({}),
+    ...Object.keys(plugins).map(name => plugins[name]()),
+  ],
 }

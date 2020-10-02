@@ -1,5 +1,15 @@
 {
-    "name": "react-styled-tailwind",
+    "name": "react-tailwind-styled-boilerplate",
+    "tags": [
+        "react-tailwind-styled-boilerplate",
+        "react-tailwind-styled",
+        "react tailwind styled boilerplate"
+    ],
+    "author": {
+        "name": "Vid V",
+        "email": "v8.vikas@gmail.com",
+        "url": "https://github.com/vid-v"
+    },
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -9,7 +19,8 @@
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-scripts": "3.4.1",
-        "styled-components": "^5.1.0"
+        "styled-components": "^5.1.0",
+        "tailwind-react-ui": "^0.8.1"
     },
     "scripts": {
         "build:css": "postcss src/assets/tailwind.css -o src/assets/styles.css",
