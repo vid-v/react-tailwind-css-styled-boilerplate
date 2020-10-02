@@ -1,9 +1,12 @@
 {
-    "name": "react-tailwind-styled-boilerplate",
+    "name": "react-tailwind-css-styled-boilerplate",
     "tags": [
+        "react",
+        "tailwind",
+        "tailwind css",
+        "react tailwind styled boilerplate",
         "react-tailwind-styled-boilerplate",
-        "react-tailwind-styled",
-        "react tailwind styled boilerplate"
+        "react-tailwind-styled"
     ],
     "author": {
         "name": "Vid V",
